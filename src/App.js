@@ -3,7 +3,7 @@ import './App.css';
 import {useEffect, useState} from "react";
 import Users from "./components/Users";
 import Posts from "./components/Posts";
-import Comments from "./components/Comments";
+import Coments from "./components/Comments";
 
 function App() {
     return (
