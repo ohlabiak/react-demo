@@ -7,14 +7,13 @@ import Coments from "./components/Coments";
 
 function App() {
     return (
-        <div>
-            <Users/>
-            <hr/>
-            <Posts/>
+        <div className="wrap">
+            <div className="header">
+                <div className="users">  <Users/>  </div>
+                <div className="posts">  <Posts/>  </div>
+            </div>
             <hr/>
             <Coments/>
-
-<h1>hello</h1>
         </div>
     );
 }
