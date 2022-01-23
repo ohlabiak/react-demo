@@ -8,7 +8,7 @@ export default function Flights() {
         fetch('https://api.spacexdata.com/v3/launches')
             .then(value => value.json())
             .then(flights => {
-                setFlightsList(flights.filter(Flight => Flight.launch_year !== 2020));
+                setFlightsList(flights.filter(flight => flight.launch_year !== 2020));
             });
 
 
