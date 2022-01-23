@@ -9,9 +9,9 @@ function App() {
     return (
         <div>
             <Users/>
-            {/*<hr/>*/}
+            <hr/>
             <Posts/>
-            {/*<hr/>*/}
+            <hr/>
             <Comments/>
 
 <h1>hello</h1>
