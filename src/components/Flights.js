@@ -16,7 +16,7 @@ export default function Flights() {
     return (
         <div>
             {
-                fligtsList.map(value => <Flight key={value.flight_number}
+                flightsList.map(value => <Flight key={value.flight_number}
                                                 item={value}
                 />)
 
